@@ -22,3 +22,29 @@
     display: flex;
     justify-content: space-between;
 }
+
+.delete-container {
+    display: flex;
+    align-items: center;
+}
+
+.inside-delete-button {
+
+    border: 0;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    cursor: pointer;
+
+
+}
+
+.inside-delete-button :active {
+    box-shadow: 0 5px;
+    transform: translateY(4px);
+}
+
+.delete-icon {
+    color: rgb(236, 87, 87, 1);
+    font-size: 27px;
+}
